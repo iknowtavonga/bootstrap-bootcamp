@@ -1,3 +1,11 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+/*This top code allows you to creat a blank space or section on the page */
+
+
 @media(min-width:768px){
     .news-input{
         width: 50%;
